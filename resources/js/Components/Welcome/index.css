@@ -1,0 +1,21 @@
+.welcome .header{
+  font-family: 'Pulp Display';
+  font-weight: bold;
+  font-family: 'Pulp Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  /* identical to box height, or 157% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.welcome .quote{
+  font-family: 'Proxima Nova';
+  font-style: regular;
+  color: #5B6270;
+  font-size: 16px;
+  line-height: 24px;
+}

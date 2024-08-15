@@ -1,0 +1,29 @@
+table th{
+  color: #5B6270;
+  font-family: 'Pulp Display';
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  padding: 0px 16px 20px 16px ;
+  border-bottom: 1px solid #D0D2D6;
+}
+
+table td{
+    color: #151F32;
+    font-family: 'Pulp Display';
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    padding: 20px 16px 20px 16px ;
+    border-bottom: 1px solid #D0D2D6;
+}
+
+table tr{
+  align-items: center;
+}

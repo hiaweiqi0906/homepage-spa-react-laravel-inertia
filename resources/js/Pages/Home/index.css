@@ -1,0 +1,48 @@
+#app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  /*margin-left: 3.75rem;  Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  max-width: 1024px !important;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  /* height: 100vh; */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+  flex-direction: row;
+}
+
+.main .card-header{
+  font-family: 'Pulp Display';
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 157% */
+  /* display: flex; */
+  /* align-items: center; */
+  color: #000000;
+}
+
+.main .hyperlink{
+  color: #493DF5;
+  font-family: 'Pulp Display';
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}

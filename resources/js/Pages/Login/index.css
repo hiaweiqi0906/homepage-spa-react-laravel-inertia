@@ -1,0 +1,22 @@
+.login .header{
+  text-align: center;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    color: #5B6270;
+    font-size: 28px;
+    line-height: 24px;
+    margin-top: 2rem;
+}
+
+.login .subheader{
+  margin-bottom: 12px;
+  color: #5B6270;
+}
+
+.login .option{
+  font-size: 28px;
+  font-family: 'Proxima Nova';
+  font-weight: 700;
+  color: #151F32;
+  margin-top: 28px;
+}

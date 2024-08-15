@@ -1,0 +1,53 @@
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.circle-progress {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: transparent;
+  clip-path: inset(0); /* Ensures background fills the entire circle */
+  mask-image: radial-gradient(closest-side, transparent 80%, black 81%);
+}
+
+.circle-inner {
+  position: absolute;
+  top: 8px;  /* Adjust this value to control the thickness */
+  left: 8px; /* Adjust this value to control the thickness */
+  right: 8px;
+  bottom: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.circle-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Pulp Display';
+  font-weight: 700;
+  align-items: center;
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: bold;
+  color: #4A53E4; /* Text color */
+}
+
+.circle-content span {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-MediumItalic.eot');
+  src: local('Pulp Display Medium Italic'), local('PulpDisplay-MediumItalic'),
+      url('/fonts/PulpDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-MediumItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-MediumItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-Bold.eot');
+  src: local('Pulp Display Bold'), local('PulpDisplay-Bold'),
+      url('/fonts/PulpDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-Bold.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-Bold.woff') format('woff'),
+      url('/fonts/PulpDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-BoldItalic.eot');
+  src: local('Pulp Display Bold Italic'), local('PulpDisplay-BoldItalic'),
+      url('/fonts/PulpDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-BoldItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-BoldItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Extra';
+  src: url('/fonts/PulpDisplay-ExtraBold.eot');
+  src: local('Pulp Display Extra Bold'), local('PulpDisplay-ExtraBold'),
+      url('/fonts/PulpDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-ExtraBold.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-ExtraBold.woff') format('woff'),
+      url('/fonts/PulpDisplay-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-Light.eot');
+  src: local('Pulp Display Light'), local('PulpDisplay-Light'),
+      url('/fonts/PulpDisplay-Light.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-Light.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-Light.woff') format('woff'),
+      url('/fonts/PulpDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-Medium.eot');
+  src: local('Pulp Display Medium'), local('PulpDisplay-Medium'),
+      url('/fonts/PulpDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-Medium.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-Medium.woff') format('woff'),
+      url('/fonts/PulpDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Extra';
+  src: url('/fonts/PulpDisplay-ExtraLight.eot');
+  src: local('Pulp Display Extra Light'), local('PulpDisplay-ExtraLight'),
+      url('/fonts/PulpDisplay-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-ExtraLight.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-ExtraLight.woff') format('woff'),
+      url('/fonts/PulpDisplay-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Extra';
+  src: url('/fonts/PulpDisplay-ExtraBoldItalic.eot');
+  src: local('Pulp Display Extra Bold Italic'), local('PulpDisplay-ExtraBoldItalic'),
+      url('/fonts/PulpDisplay-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-ExtraBoldItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-ExtraBoldItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-RegularItalic.eot');
+  src: local('Pulp Display Italic'), local('PulpDisplay-RegularItalic'),
+      url('/fonts/PulpDisplay-RegularItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-RegularItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-RegularItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Extra';
+  src: url('/fonts/PulpDisplay-ExtraLightItalic.eot');
+  src: local('Pulp Display Extra Light Italic'), local('PulpDisplay-ExtraLightItalic'),
+      url('/fonts/PulpDisplay-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-ExtraLightItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-ExtraLightItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-LightItalic.eot');
+  src: local('Pulp Display Light Italic'), local('PulpDisplay-LightItalic'),
+      url('/fonts/PulpDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-LightItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-LightItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('/fonts/PulpDisplay-Regular.eot');
+  src: local('Pulp Display'), local('PulpDisplay-Regular'),
+      url('/fonts/PulpDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-Regular.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-Regular.woff') format('woff'),
+      url('/fonts/PulpDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Semi';
+  src: url('/fonts/PulpDisplay-SemiBoldItalic.eot');
+  src: local('Pulp Display Semi Bold Italic'), local('PulpDisplay-SemiBoldItalic'),
+      url('/fonts/PulpDisplay-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-SemiBoldItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-SemiBoldItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Outline';
+  src: url('/fonts/PulpDisplay-Outline.eot');
+  src: local('Pulp Display Outline'), local('PulpDisplay-Outline'),
+      url('/fonts/PulpDisplay-Outline.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-Outline.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-Outline.woff') format('woff'),
+      url('/fonts/PulpDisplay-Outline.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Outline';
+  src: url('/fonts/PulpDisplay-OutlineItalic.eot');
+  src: local('Pulp Display Outline Italic'), local('PulpDisplay-OutlineItalic'),
+      url('/fonts/PulpDisplay-OutlineItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-OutlineItalic.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-OutlineItalic.woff') format('woff'),
+      url('/fonts/PulpDisplay-OutlineItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pulp Display Semi';
+  src: url('/fonts/PulpDisplay-SemiBold.eot');
+  src: local('Pulp Display Semi Bold'), local('PulpDisplay-SemiBold'),
+      url('/fonts/PulpDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/PulpDisplay-SemiBold.woff2') format('woff2'),
+      url('/fonts/PulpDisplay-SemiBold.woff') format('woff'),
+      url('/fonts/PulpDisplay-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/proximanova_regular.ttf');
+  src: local('Proxima Nova'), local('Proxima Nova'),
+      url('/fonts/proximanova_regular.ttf') format('truetype');
+  font-weight: regular;
+  font-style: normal;
+  font-display: swap;
+}

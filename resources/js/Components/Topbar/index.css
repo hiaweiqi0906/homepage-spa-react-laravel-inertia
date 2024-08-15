@@ -1,0 +1,109 @@
+/* index.css */
+
+.topbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #D0D2D6;
+  z-index: 0;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+.profile-section {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 48px;
+  /* Adjust based on topbar height */
+  right: 0;
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 272px;
+  display: none;
+  z-index: 1000;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu .name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: 'Proxima Nova';
+  color: #151F32;
+}
+
+.dropdown-menu .description {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5B6270;
+}
+
+.dropdown-user-info {
+  display: 'flex';
+  flex-direction: "row";
+  border-bottom: '1px solid #D0D2D6';
+  gap: '16px';
+  padding-bottom: '12px'
+}

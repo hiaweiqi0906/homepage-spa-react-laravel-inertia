@@ -1,0 +1,18 @@
+.career-goal-description{
+  font-family: 'Proxima Nova';
+  font-style: regular;
+  color: #5B6270;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 2rem;
+}
+
+.career-goal-subheader{
+  font-family: 'Proxima Nova';
+  font-style: bold;
+  font-weight: 700;
+  color: #5B6270;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  line-height: 24px;
+}

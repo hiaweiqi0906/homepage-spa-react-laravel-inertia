@@ -1,0 +1,33 @@
+.sidenav {
+  height: 100%;
+  width: 3.75rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #151F32;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav img{
+  width: 24px;
+  height: 24px;
+}
+
+.sidenav li{
+  padding: 18px;
+  margin-bottom: 8px;
+}
+
+.sidenav .profile-item{
+  padding: 8px;
+}
+
+.sidenav .profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
